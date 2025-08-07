@@ -5,8 +5,8 @@ export const Header: React.FC = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="relative my-container flex items-center justify-between p-1">
-      <div className="flex items-center text-xl font-bold"><img src={logo} alt="logo" className='w-2.5 h-2.5'/>CoolCado</div>
+    <header className="relative my-container flex items-center justify-between p-1 pt-1.5">
+      <div className="flex items-center text-xl font-bold"><img src={logo} alt="logo" className='w-3 h-3'/>GardenCat</div>
 
       <button
         className="md:hidden text-2xl z-20"
